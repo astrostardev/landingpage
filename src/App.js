@@ -39,8 +39,8 @@ function App() {
 
                           </li>
                           <li><a href="#con">contact</a></li>
-                          <button className='btns' style={{marginRight:"10px"}}>Login</button>
-                          <button className="btns">Register</button>
+                          <a className='btns' id="atag" href='http://user.astro5star.com' style={{marginRight:"20px"}}>Login</a>
+                          {/* <a className="btns" href>Register</a> */}
                         </ul>
                       </div>
                     </div>
@@ -480,8 +480,8 @@ function App() {
                             <li><a href=""> Blog</a></li>
                             <li><a href=""> Astrologers</a></li>
                             <li><a href=""> Appointment</a></li>
-                            <button className="btns" style={{  marginBottom: "20px" }}>Login as Astrologer</button>
-                            <button className="btns">Register as Astrologer</button>
+                            <a className="btns"  href="http://astrologer.astro5star.com" style={{  marginBottom: "20px"}}>Login as Astrologer</a>
+                            {/* <a className="btns" href="">Register as Astrologer</a> */}
                           </ul>
                         </div>
                       </div>
