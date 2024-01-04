@@ -14,7 +14,7 @@ function App() {
                 <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                   <div className="as_logo">
                     <a href="index.html">
-                      <img src="assets/images/aq.png" alt="" />
+                      <img src="assets/images/logo green.png" alt="" />
                     </a>
                   </div>
                 </div>
@@ -39,9 +39,13 @@ function App() {
 
                           </li>
                           <li><a href="#con">contact</a></li>
-                          <a className='btns' id="atag" href='http://user.astro5star.com' style={{marginRight:"20px"}}>Login</a>
+                       
                           {/* <a className="btns" href>Register</a> */}
                         </ul>
+                        <div className='access-btn'>
+                          <a className='btns' id="atag" href='http://user.astro5star.com/register' style={{marginRight:"20px"}}>Register</a>
+                          <a className='btns' id="atag" href='http://user.astro5star.com' style={{marginRight:"20px"}}>Login</a>
+                          </div>
                       </div>
                     </div>
                   </div>
@@ -79,7 +83,7 @@ function App() {
                 <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="as_banner_img text-center">
                     <img src="assets/images/hand_bg.png" alt="" className="img-responsive as_hand_bg" />
-                    <img src="assets/images/hand.png" alt="" className="img-responsive as_hand" />
+                    <img src="assets/images/main.png" alt="" className="img-responsive as_hand" />
                   </div>
                 </div>
               </div>
@@ -458,7 +462,7 @@ function App() {
                       <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="as_footer_widget">
                           <div className="as_footer_logo">
-                            <a href="index.html"><img src="assets/images/aq1.png" alt="" /></a>
+                            <a href="index.html"><img src="assets/images/logo green.png" alt="" /></a>
                           </div><br />
                           <h4 style={{ fontSize: "18px" }}>Our app will avaliable in </h4>
 
@@ -481,6 +485,9 @@ function App() {
                             <li><a href=""> Astrologers</a></li>
                             <li><a href=""> Appointment</a></li>
                             <a className="btns"  href="http://astrologer.astro5star.com" style={{  marginBottom: "20px"}}>Login as Astrologer</a>
+                            <br/><br/>
+                            <a className="btns" href="http://astrologer.astro5star.com" style={{  marginBottom: "20px"}}>Register as Astrologer</a>
+                            
                             {/* <a className="btns" href="">Register as Astrologer</a> */}
                           </ul>
                         </div>
@@ -520,9 +527,9 @@ function App() {
 
                   <div className="as_copyright_wrapper text-center">
 
-                    <p> <img src="assets/images/x1.png" alt="" width="40" />
-                      <img src="assets/images/x2.png" alt="" width="40" />
-                      <img src="assets/images/x3.png" alt="" width="40" />
+                    <p> <img src="assets/images/x1(1).png" alt="" width="40" />
+                      <img src="assets/images/x2(1).png" alt="" width="40" />
+                      <img src="assets/images/x3(1).png" alt="" width="40" />
                       <br />Copyright &copy; 2023 Astro 5. All Right Reserved.</p>
                   </div>
                 </div>
