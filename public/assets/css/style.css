@@ -1,7 +1,7 @@
 /* stylesheet */
 :root {
     --primary-color: #797979;
-    --secondary-color: #f4a636;
+    --secondary-color: #229e48;
     --dark-color1: #111111;
     --dark-color2: #17384e;
     --white-color: #ffffff;
@@ -206,9 +206,9 @@ a:visited {
 .as_btn:focus,
 .as_btn:visited {
     height: 45px;
-    background-image: -moz-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
+    background-image: -moz-linear-gradient(0deg, #229e48 0%, #229e48 100%);
+    background-image: -webkit-linear-gradient(0deg, #229e48 80%, #229e48 100%);
+    background-image: -ms-linear-gradient(0deg,#229e48 0%, #229e48 100%);
     font-size: 17px;
     text-transform: capitalize;
     display: inline-flex;
@@ -235,9 +235,9 @@ a:visited {
     bottom: 0;
     left: 100%;
     right: 0;
-    background-image: -moz-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
+    background-image: -moz-linear-gradient(0deg, #229e48 0%, #229e48 100%);
+    background-image: -webkit-linear-gradient(0deg,#229e48 0%, #229e48 100%);
+    background-image: -ms-linear-gradient(0deg, #229e48 0%, #229e48 100%);
 }
 
 .as_btn:hover:after {
@@ -433,19 +433,28 @@ a:visited {
     display: flex;
     padding-top: 10px;
 }
+.as_menu {
+    display: flex;
+    align-items: center;
+  
+
+}
 
 .as_menu ul {
     padding: 0;
     margin: 0;
-    list-style: none;
+   list-style: none;
+   
+
 }
 
 .as_menu>ul>li {
     display: inline-flex;
     text-transform: capitalize;
-    margin: 0 30px;
+    margin: 0 20px;
     color: #ffffff;
     position: relative;
+ 
 }
 
 .as_info_detail:last-child {
@@ -867,7 +876,7 @@ a:visited {
     font-size: 64px;
     line-height: 62px;
     margin: 0 0 13px;
-    color: #ffcb11;
+    color: #229e48;
     font-weight: 600;
 }
 
@@ -939,9 +948,9 @@ a:visited {
 }
 
 .as_banner_slider .slick-arrow.as_btn:hover {
-    background-image: -moz-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
+    background-image: -moz-linear-gradient(0deg, #229e48 0%, #229e48 100%);
+    background-image: -webkit-linear-gradient(0deg, #229e48 80%, #229e48 100%);
+    background-image: -ms-linear-gradient(0deg, #229e48 0%, #229e48 100%);
 }
 
 .as_banner_slider .slick-arrow>span {
@@ -1156,9 +1165,9 @@ a:visited {
 }
 
 .as_service_box:hover {
-    background-image: -moz-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
+    background-image: -moz-linear-gradient(0deg, #229e48 0%, #229e48 100%);
+    background-image: -webkit-linear-gradient(0deg, #229e48 0%, #229e48 100%);
+    background-image: -ms-linear-gradient(0deg, #229e48 0%, #229e48 100%);
 }
 
 .as_service_box .as_icon svg {
@@ -1538,9 +1547,9 @@ a:visited {
 }
 
 .as_sign_box:hover {
-    background-image: -moz-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -webkit-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
-    background-image: -ms-linear-gradient(0deg, rgb(255, 203, 17) 0%, rgb(255, 203, 17) 100%);
+    background-image: -moz-linear-gradient(0deg, #229e48 0%, #229e48 100%);
+    background-image: -webkit-linear-gradient(0deg,#229e48 0%, #229e48 100%);
+    background-image: -ms-linear-gradient(0deg, #229e48 0%, #229e48 100%);
     border-color: rgb(231, 231, 231);
 }
 
@@ -4484,10 +4493,10 @@ iframe {
     text-decoration: none;
 }
 .btns {
-    background-color: gold;
+    background-color: #229e48;
     border: transparent;
     border-radius: 10px;
-    padding: 10px 25px 10px 25px;
+    padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
