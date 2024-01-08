@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './images/logo green.png';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
                 <div className="col-lg-3 col-md-3 col-sm-4 col-xs-6">
                   <div className="as_logo">
                     <a href="index.html">
-                      <img src="assets/images/logo green.png" alt="" />
+                      <img src={logo} alt="" />
                     </a>
                   </div>
                 </div>
