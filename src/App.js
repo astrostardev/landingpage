@@ -494,7 +494,7 @@ function App() {
                           </ul>
                           <div style={{display:"flex",flexDirection:"column"}}>
                           <a className="btns"  href="http://astrologer.astro5star.com" style={{marginBottom: "20px"}}>Login as Astrologer</a>
-                          <a className='btns' id="atag" href='https://docs.google.com/forms/d/e/1FAIpQLSe0YuYV5rwd-bWqgkVSt1NhCqka2i4Kkco8-1aPweCcRR1Q2g/viewform' style={{marginRight:"20px",color:"white"}}>Login</a>
+                          <a className='btns' id="atag" href='https://docs.google.com/forms/d/e/1FAIpQLSe0YuYV5rwd-bWqgkVSt1NhCqka2i4Kkco8-1aPweCcRR1Q2g/viewform' style={{marginRight:"20px",color:"white"}}>Register as Astrologer</a>
  
                           </div>
                          
