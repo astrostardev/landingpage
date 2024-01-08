@@ -5,6 +5,8 @@ function App() {
   return (
     <>
       <div>
+
+
         {/* <div className="as_loader">
           <img src="assets/images/loader.png" alt="" className="img-responsive" />
         </div> */}
@@ -40,8 +42,8 @@ function App() {
 
                           </li>
                           <li><a href="#con">contact</a></li>
-                          <a className='btns' id="atag" href='http://user.astro5star.com/register' style={{marginRight:"20px"}}>Register</a>
-                          <a className='btns' id="atag" href='http://user.astro5star.com' style={{marginRight:"20px"}}>Login</a>
+                          <a className='btns' id="atag" href='http://user.astro5star.com/register' style={{marginRight:"20px",color:"white"}} >Register</a>
+                          <a className='btns' id="atag" href='http://user.astro5star.com' style={{marginRight:"20px",color:"white"}}>Login</a>
                          
                           {/* <a className="btns" href>Register</a> */}
                         </ul>
