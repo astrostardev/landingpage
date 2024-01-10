@@ -432,6 +432,7 @@ a:visited {
 .as_logo {
     display: flex;
     padding-top: 10px;
+  
 }
 .as_menu {
     display: flex;
@@ -4489,11 +4490,12 @@ iframe {
     min-width: min-content;
 }
 #atag{
-    color:black !important;
+    color:#fff !important;
     text-decoration: none;
 }
 .btns {
     background-color: #229e48;
+   
     border: transparent;
     border-radius: 10px;
     padding: 10px;
