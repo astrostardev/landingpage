@@ -43,7 +43,7 @@ function App() {
                           </li>
                           <li><a href="#con">contact</a></li>
                           <a className='btns' id="atag" href='http://user.astro5star.com/register' style={{marginRight:"20px",color:"white"}} >Register</a>
-                          <a className='btns' id="atag" href='https://docs.google.com/forms/d/e/1FAIpQLSe0YuYV5rwd-bWqgkVSt1NhCqka2i4Kkco8-1aPweCcRR1Q2g/viewform' style={{marginRight:"20px",color:"white"}}>Login</a>
+                          <a className='btns' id="atag" href='http://user.astro5star.com' style={{marginRight:"20px",color:"white"}}>Login</a>
                          
                           {/* <a className="btns" href>Register</a> */}
                         </ul>
@@ -494,8 +494,9 @@ function App() {
                           </ul>
                           <div style={{display:"flex",flexDirection:"column"}}>
                           <a className="btns"  href="http://astrologer.astro5star.com" style={{marginBottom: "20px"}}>Login as Astrologer</a>
-                          <a className='btns' id="atag" href='https://docs.google.com/forms/d/e/1FAIpQLSe0YuYV5rwd-bWqgkVSt1NhCqka2i4Kkco8-1aPweCcRR1Q2g/viewform' style={{marginRight:"20px",color:"white"}}>Register as Astrologer</a>
- 
+                        
+                        <a className="btns" href="https://docs.google.com/forms/d/e/1FAIpQLSe0YuYV5rwd-bWqgkVSt1NhCqka2i4Kkco8-1aPweCcRR1Q2g/viewform" style={{marginBottom: "20px"}}>Register as Astrologer</a>
+                        
                           </div>
                          
                         </div>
